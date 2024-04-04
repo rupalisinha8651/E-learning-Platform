@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('Font/OpenSans-Bold-subset.ttf') format('truetype');
+}
+
+
+body {
+    font-family: 'OpenSans-Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.register-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: plum; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px; /* added missing 'px' unit */
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #0056b3; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #666;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.home {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.services {
+    background-image: url('services-background.jpg');
+    background-size: cover;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.contact {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.about {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.about h2 {
+    color: #333;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#submit-btn {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+#submit-btn:hover {
+    background-color: #3e8e41; 
+}

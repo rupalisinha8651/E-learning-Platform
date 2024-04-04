@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: left;
+        }
+        
+        .stick {
+            position: sticky;
+            top: 50px;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: lightblue;
+            border: 1px solid blue;
+        }
+        
+        .scrollable-form {
+            max-height: 400px; /* Adjust the height as needed */
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <body style="background-image: url('background.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+            <h2>contact</h2>
+            <marquee>
+                <p>Welcome to our website! Here you'll find information about our company.</p>
+            </marquee>
+            <main>
+                <section class="scrollable-form">
+                    <h2>Get in Touch</h2>
+                    <p>Have a question or want to work with us? Drop us a message!</p>
+                    <form id="contact-form">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" required></textarea><br>
+                        <button type="submit" id="submit-btn">Send Message</button>
+                    </form>
+                    <div id="success-message" style="display: none; color: green;">Congratulations! Form submitted successfully!</div>
+                </section>
+            </main>
+        </body>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+       <marquee><center><h1>Welcome to Our E-Learning Platform</h1></center></marquee>
+        <nav>
+            <ul>
+                <li><a href="e-learning.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="registration.html" class="register-button">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Home</h2>
+            <p>Welcome to our e-learning platform! Here you'll find resources and tools for both teachers and students to enhance the learning experience.</p>
+        </section>
+        <section>
+            <h2>About</h2>
+            <p>Our e-learning platform provides a comprehensive online education environment, catering to the needs of both teachers and students. Teachers can create and manage courses, while students can access these courses and interact with the learning materials.</p>
+        </section>
+        <section>
+            <h2>Services</h2>
+            <p>Our platform offers various services to facilitate online education:</p>
+            <div class="service">
+                <img src="image4.jpg" alt="Service 1" height="100" width="180">
+                <h3>Teacher Tools</h3>
+                <p>Empower educators with tools for course creation, student management, and performance tracking.</p>
+            </div>
+            <div class="service">
+                <img src="image3.jpg" height="100" width="180" alt="Service 2">
+                <h3>Student Resources</h3>
+                <p>Provide students with access to course materials, interactive quizzes, and discussion forums.</p>
+            </div>
+            <div class="service">
+                <img src="fantasy.jpg" height="100" width="180" alt="Service 3">
+                <h3>Extra-curricular Resources</h3>
+                <p>Explore additional resources for students' holistic development and enrichment.</p>
+            </div>
+        </section>
+        <section>
+            <marquee class="scrolling-text">Limited time offer: Get 20% off on all products! Hurry up! </marquee>
+
+            <h2>Publishers' Advertisement</h2>
+            <div class="advertisement">
+                <img src="book.jpg" alt="Advertisement 1">
+                <div class="advertisement-text">
+                    <h3>Advertisement Title 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut eros quis quam fermentum blandit.</p>
+                </div>
+            </div>
+            <div class="advertisement">
+                <img src="image4.jpg" alt="Advertisement 2">
+                <div class="advertisement-text">
+                    <h3>Advertisement Title 2</h3>
+                    <p>Sed euismod mi et nunc iaculis, eu vehicula nunc ultrices. Integer id justo vitae ligula suscipit scelerisque.</p>
+                </div>
+            </div>
+        </section>
+        <section id="advertisement" class="advertisement">
+            <h2>Advertisement for Publishers</h2>
+            
+            <div class="alert alert-info" role="alert">
+                Advertise your books here!
+            </div>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <p>Have a question or feedback? Feel free to reach out to us:</p>
+            <form id="contact-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit" id="submit-btn">Send Message</button>
+            </form>
+            <div id="success-message" style="display: none; color: green;">Congratulations! Form submitted successfully!</div>
+        </section>
+        <section>
+            <h2>Registration</h2>
+            <form id="registration-form">
+                <label for="user-type">Select User Type:</label><br>
+                <select id="user-type" name="user-type">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select><br><br>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+                <button type="submit" id="register-btn">Register</button>
+            </form>
+        </section>
+        
+         
+    </main>
+    <footer>
+        <p>&copy; 2024 E-Learning Platform</p>
+    </footer>
+    
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
